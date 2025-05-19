@@ -2,11 +2,15 @@
   "name": "vercel-test",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "build": "echo 'No build step required'"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
